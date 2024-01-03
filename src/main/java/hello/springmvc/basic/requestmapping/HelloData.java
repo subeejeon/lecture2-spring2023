@@ -1,2 +1,11 @@
-package hello.springmvc.basic.requestmapping;public class HelloData {
+package hello.springmvc.basic.requestmapping;
+
+import lombok.Data;
+
+@Data
+public class HelloData {
+
+    private String username;
+    private int age;
+
 }
